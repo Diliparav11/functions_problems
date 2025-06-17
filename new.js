@@ -147,13 +147,8 @@
 // }
 // }
 // console.log(z);
+// console.log("it contains vowels");
 
-// if (z==x[i]){
-//     console.log("it contains vowels");
-// }
-// else{
-//     console.log("it does not contains vowels");
-// }
 
 // let arr = "Discover the pinnacle of IT"
 // let x = arr.split(" ")
@@ -167,36 +162,82 @@
 
 
 
-let arr = "Discover the pinnacle of IT education Sfhrtf in Bangalore with itdefined.org! Elevate your career through our Software Courses in DevOps, Full Stack Web"
-let y = ["a","e","i","o","u"]
-let x = arr.split(" ")
-let z = [];
-let s = []
-for (i=0; i<x.length; i++){
-    flag = true;
+// let arr = "Discover the pinnacle of IT education Sfhrtf in Bangalore with Gym itdefined.org! Elevate your career through our Software Courses in DevOps, Full Stack Web"
+// let y = ["a","e","i","o","u"]
+// let x = arr.split(" ")
+// let z = []
+// let s = []
+// for (i=0; i<x.length; i++){
+//     flag = true;
 
-    for (let j = 0; j<y.length; j++){
-        if(x[i].toLowerCase().includes(y[j])){
-            flag = false;
-                break;
-        }
-    }   
-    if(flag == true){
-        s.push(x[i]);
-    }
-    if(flag == false){
-        z.push(x[i]);
-    }
-}
+//     for (let j = 0; j<y.length; j++){
+//         if(x[i].toLowerCase().includes(y[j])){
+//             flag = false;
+//                 break;
+//         }
+//     }   
+//     if(flag == true){
+//         s.push(x[i]);
+//     }
+//     if(flag == false){
+//         z.push(x[i]);
+//     }
+// }
 
-console.log("these words dont have any vowels");
+// console.log("these words dont have any vowels");
 
-console.log(s);
+// console.log(s);
 
-console.log("===================================================================================================================");
+// console.log("=====================================");
 
-console.log("these words have vowels");
-console.log(z);
+// console.log("these words have vowels");
+// console.log(z);
+
+
+// let x = [1,5,7,5,9,2,1,8,5,4,8,2]
+// for (i=x.length-1; i>=0; i--){
+//     console.log(x[i]);
+// }
+// let y = []
+// let i = 0
+// do{
+//     y = x.sort()
+//     i++
+// }
+// while(i<=x.length)
+// console.log(y);
+
+
+// let x = [1,5,7,5,9,2,1,8,5,4,8,2]
+// let uniqueArray = [...new Set(x)]
+// console.log(uniqueArray);
+
+// let x = [1,5,8,9,6,3,4,8,22,55,24,63]
+// let y = []
+// let z = []
+
+// function isPrime(num){
+//     if (num<=1) 
+//         return false
+//     for(i=2; i<=Math.sqrt(num); i++){
+//         if (num % i==0)
+//         return false
+//     }
+//     return true;
+// }
+// for(let i=0; i<x.length; i++){
+//     if (isPrime(x[i])){
+//         y.push(x[i])
+//     }
+//     if (!isPrime(x[i])){
+//         z.push(x[i])
+//     }
+// }
+// console.log(z);
+// console.log(y);
+
+
+
 
 
 
