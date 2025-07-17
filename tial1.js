@@ -321,11 +321,98 @@
 // counter()
 // counter()
 
-let num = [1, 2, 3, 4, 5];
+// let num = [1, 2, 3, 4, 5];
 
-let doubled = num.map(num => num * 2);
+// let doubled = num.map(num => num * 2);
 
-console.log(doubled);
+// console.log(doubled);
+
+// function flat(arr){
+//     let y = []
+//     for (let i of arr){
+//         if(Array.isArray(i)){
+//         y = y.concat(flat(i));
+//         }
+//         else{
+//             y.push(i);
+//         }
+//     }
+//     return y;
+// }
+
+// let arr = [1, 2, 3,[12, 10, [15, [1, 5, 5], 16, 17]]]
+// // console.log(flat(arr));
+// console.log(arr.flat(10));
+
+// function numCheck(n){
+//     if(n==0){
+//         console.log("the value is zero");
+//     }
+//     else if(n<0){
+//         console.log("negative"+ n);
+//     }else{
+//         console.log("positive"+ n);
+//     }
+// }
+// numCheck(-15)
+
+// let arr = [1,2,2,3,4,4,5]
+// let x = []
+// for (i=0; i<arr.length; i++){
+//     if (!x.includes(arr[i])){
+//         x.push(arr[i])
+//     }
+// }
+// console.log(x);
+
+// for(i=0; i<x.length; i++){
+//     g=0;
+//     for(j=0; j <arr.length; j++){
+        
+//         if (x[i]==arr[j]){
+//             g=g+1;
+//         }
+//     }
+//     console.log(x[i]+" is repeating "+g);
+// }
+
+
+// let x = "dilip"
+// let y = " " 
+// for(i=x.length-1; i>=0; i--){
+//     y += x[i]
+// }
+// console.log(y);
+
+
+// let x = [1,8,7,5,9,4,44,56,52]
+// let y = []
+// for (i=0; i<x.length; i++){
+//     y.push(x[i])
+// }
+// if ((i+1)%2 == 0){
+//     y.push(0);
+// }
+// console.log(y);
+
+let x = [10, 14, 5, 8, 16,28,36]
+let y = []
+for (i=0; i<x.length-1; i++){
+    for (let j=0; j<y.length; j++){
+        if (x[i] == y[j]){
+            break;
+        }
+        else{
+            y[y.length] = x[i]
+        }
+    }
+}
+console.log(y);
+
+
+
+
+
 
 
 

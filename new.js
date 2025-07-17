@@ -238,10 +238,191 @@
 
 
 
+// function factorial(x){
+//     let y = 1
+//     for(i=2; i<=x; i++){
+//         y*= i;
+//     }
+//     return y
+// }
+// console.log(factorial(5));
+
+
+// class person{
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age;
+//     }
+//     greet(){
+//         console.log(`my name is ${this.name} and my age is ${this.age}`);
+//     }
+// }
+// let person1 = new person("Arjun", 30)
+// person1.greet();
+// let person2 = new person("Ajay", 28)
+// person2.greet();
+// let person3 = new person("Arun", 26)
+// person3.greet();
+
+// let person = {
+//   name: "Alice",
+//   age: 30,
+//   isStudent: false
+// };
+// console.log(person);
+
+
+// let x =[3456987,46353,454681,6843535]
+// let y = []
+// for(i=x.length-1; i>=0; i--){
+//     y.push(x[i])
+// }
+// console.log(y);
+
+// let arr = [1, 2, 3, 4, 5];
+// let reversedArr = [];
+
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   reversedArr.push(arr[i]);
+// }
+
+// console.log(reversedArr);
+
+// let book = { title: "1984", author: "George Orwell" };
+// book.year = 1949;   
+// delete book.author;          
+
+// console.log(book); 
+
+
+// let user = { username: "john_doe", email: "john@example.com" };
+// console.log(user.email);
+
+// let x = "jhsu kyuc ckuhc scsiiu"
+// let y = x.split(" ").reverse();
+// console.log(y);
+
+// class Car {
+//   constructor(brand, model, year) {
+//     this.brand = brand;
+//     this.model = model;
+//     this.year = year;
+//   }
+//   getDetails() {
+//     return `${this.brand} ${this.model} (${this.year})`;
+//   }
+// }
+// let c1 = new Car("Toyota", "Innova", 2025);
+// console.log(c1.getDetails());
+// let c2 = new Car("BMW", "m5", 2025);
+// console.log(c2.getDetails());
+
+
+// function factorial(n){
+//   if (n < 0) return null;
+//   let result = 1;
+//   for(i=2; i<=n; i++){
+//     result *= i;
+//   }
+//   return result;
+// }
+// console.log(factorial(5));
+
+
+// function getMe(){
+//     console.log("Hello Sir, Order plzz");
+
+//      function orderPlaced(){
+//         console.log("your order has been placed");
+//      }
+//      orderPlaced();
+//  return new Promise((res) => {
+//   console.log("waiting for confirmation");
+  
+// setTimeout(() => res("you have ordered fruit juice"), 3000);
+//  });
+// }
+
+// function getPayment(){
+//   return new Promise((res, rej)=>{
+//     console.log("Select payment Method");
+//     res("UPI Payment");
+//     rej("By Cash");
+//   })
+// }
+// getMe()
+//   .then((msg)=>{
+//     console.log(msg);
+//     return getPayment("By Cash");
+//   })
+
+//   getPayment()
+//     .then((msg)=>{
+//       console.log(msg);
+//       console.log("thank you");
+      
+//     })
+//     .catch((msg)=>{
+//       console.log("rejected");
+//     })
+  
 
 
 
 
+//     function orderPlaced(){
+//         console.log("your order has been placed");
+
+//        
+
+//      orderPlaced(); 
+// }
+
+
+
+
+// let n = []
+// for(let i=1; i<=100; i++){
+//      let x = true;
+//    for(let j=2;j<i;j++){
+//     if (i%j === 0){
+//         x = false;
+//         break;
+//    }
+//     }
+//     if(x){
+//         n.push(i)
+//     }
+//    } 
+//    console.log(n); 
+
+
+
+// function findFactorial(n){
+//   let fact = 1
+//   for(let i=n; i>0; i--){
+//     fact*=i;
+//   }
+//   console.log(fact);
+// }
+
+// console.log(findFactorial(3));
+
+// let n = [1,2,1,2,1,2,1]
+// for(let i=0; i<n.length; i++){
+//   let temp = []
+//   for(let j=0; j<=i; j++){
+//     temp+=i;
+//   }
+//     console.log(temp);
+// }
+
+let c = "dilip"
+let h = " "
+for (i=c.length-1; i>=0; i--){
+    h += c[i]
+}
+console.log(h);
 
 
 
