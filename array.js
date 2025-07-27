@@ -56,14 +56,14 @@
 //     console.log(str);
 // }
 
-let x = 5
-for(let i=1; i<=x; i++){
-    str = ""
-for(let j=0; j<=i; j++){
-    str += "*"
-}
-console.log(str);
-}
+// let x = 5
+// for(let i=1; i<=x; i++){
+//     str = ""
+// for(let j=0; j<=i; j++){
+//     str += "*"
+// }
+// console.log(str);
+// }
 
 
 
